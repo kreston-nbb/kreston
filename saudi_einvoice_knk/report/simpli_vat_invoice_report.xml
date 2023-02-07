@@ -67,7 +67,7 @@
 					 			</t>
 						 		<td style="border-right:1pt solid grey;text-align:center;padding:3pt">
 						 			<span t-field="l.name"/> - 
-						 			<span class="text-right arabic" t-esc="doc.get_product_arabic_name(l.product_id.id)"/>
+						 			<!-- <span class="text-right arabic" t-esc="doc.get_product_arabic_name(l.product_id.id)"/> -->
 						 			<br/>
 						 		</td>
 						 		<td style="border-right:1pt solid grey;text-align:center;padding:3pt"><span t-field="l.price_unit" t-options='{"widget": "monetary", "display_currency": o.currency_id}'/></td>

@@ -25,9 +25,10 @@
     هيئة الزكاة والضريبة والجمارك
 
     Versions History --------------------
-     * version 1.4: 01-JAN-2023
+    * version 1.4: 01-JAN-2023
+        - upgrade to odoo 16
         - fix conflict with odoo e-invoice
-        
+    
     * version 1.3: 27-Nov-2021
          - update qrcode format with base64 ref:
          https://zatca.gov.sa/ar/E-Invoicing/SystemsDevelopers/Documents/QRCodeCreation.pdf
